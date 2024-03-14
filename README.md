@@ -28,6 +28,8 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
    models: the network file for MFCF. mdcf.py describes the overall network framework, and other files are called by it.
 
    runs: it holds the model trained by train.py.
+
+   OFM：this folder holds the OFM dataset, where sample images are available for download. Click on the link: https://pan.baidu.com/s/1d-BLys-RbS4wxqzh72yy9A?pwd=srbi. The extraction code is srbi.
    
    Arial.ttf: Font files. Used to print the predicted class name onto the image as a prediction display.
 
@@ -37,11 +39,11 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
 
    requirements.txt: includes a number of dependent packages.
 
-2) Download the optimal training model trained by the authors. Click on the link: https://pan.baidu.com/s/1d-BLys-RbS4wxqzh72yy9A?pwd=srbi. The extraction code is srbi. Download the model and place it in the ./runs/weights folder. 
+3) Download the optimal training model trained by the authors. Click on the link: https://pan.baidu.com/s/1d-BLys-RbS4wxqzh72yy9A?pwd=srbi. The extraction code is srbi. Download the model and place it in the ./runs/weights folder.
 
-3) Deploy the environment in IDE or terminal. Click test.py, set the weights file and the path to the multimodal dataset (already set). Click run to output the class predicted by the model.
+5) Deploy the environment in IDE or terminal. Click test.py, set the weights file and the path to the multimodal dataset (already set). Click run to output the class predicted by the model.
 
-4) Output file. In the ./runs/weights folder, output an acc.txt file with the categories of the model's predicted samples and the accuracy. The result images of the predicted samples will all be saved in the /runs/weights folder as well.
+6) Output file. In the ./runs/weights folder, output an acc.txt file with the categories of the model's predicted samples and the accuracy. The result images of the predicted samples will all be saved in the /runs/weights folder as well.
 
 ### Who do I talk to?
 
