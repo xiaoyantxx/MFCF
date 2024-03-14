@@ -3,7 +3,7 @@ A Multi-modal Fine-grained Classification Framework (MFCF) using deep learning f
 
 ### **The MFCF diagram**
 
-![MFCF](C:\Users\闫正丽\Desktop\paper\paper2提交材料\Figure(png)\MFCF.png)
+![image-20240314184829351](C:\Users\闫正丽\AppData\Roaming\Typora\typora-user-images\image-20240314184829351.png)
 
 From the piper: Fine-grained Fusulinid Fossil Recognition by Combining Textual Information and Local Discriminative Visual 
 
