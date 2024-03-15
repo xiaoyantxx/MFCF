@@ -29,7 +29,7 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
 
    runs: it holds the model trained by train.py.
 
-   OFM：this folder holds the OFM dataset, where sample images are available for download. Click on the link: https://pan.baidu.com/s/1d-BLys-RbS4wxqzh72yy9A?pwd=srbi. The extraction code is srbi.
+   OFM：this folder holds the OFM dataset, where sample images are available for download. Click on the link: https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The extraction code is odci.
    
    Arial.ttf: Font files. Used to print the predicted class name onto the image as a prediction display.
 
