@@ -1,1 +1,1 @@
-The weight files for model training are placed in this folder. To download the training model click https:链接：https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The extraction code is odci.
+The weight files for model training are placed in this folder. To download the training model click https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The extraction code is odci.
