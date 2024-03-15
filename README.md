@@ -45,9 +45,7 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
 
 6) Output file. In the ./runs/weights folder, output an acc.txt file with the categories of the model's predicted samples and the accuracy. The result images of the predicted samples will all be saved in the /runs/weights folder as well.
 
-7) About OFM dataset: The OFM folder holds the multimodal dataset txt files in the format class|image|text. where, due to the large size of the image files, if you need to download them, please click the link https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The dataset is divided into 45 classes and the number of samples in each class is shown below. There are 9 classes with less than 2 samples, which cannot be classified for training, validation and test sets, so these 9 classes are removed for the experimental study. In subsequent studies will look for as many ways as possible to continue to collect the dataset in order to build a more robust model.
-
-![Uploading MFCF.png…](https://github.com/xiaoyantxx/MFCF/blob/main/MFCF_images/Sample_Count.png)
+7) About OFM dataset: The OFM folder holds the multimodal dataset txt files in the format class|image|text. where, due to the large size of the image files, if you need to download them, please click the link https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The dataset is divided into 45 classes. There are 9 classes with less than 2 samples, which cannot be classified for training, validation and test sets, so these 9 classes are removed for the experimental study. In subsequent studies will look for as many ways as possible to continue to collect the dataset in order to build a more robust model.
 
 ### Who do I talk to?
 
