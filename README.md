@@ -3,7 +3,7 @@ A Multi-modal Fine-grained Classification Framework (MFCF) using deep learning f
 
 ### **The MFCF diagram**
 
-![Uploading MFCF.png…](https://github.com/xiaoyantxx/MFCF/blob/main/MFCF%20Network/MFCF.png)
+![Uploading MFCF.png…](https://github.com/xiaoyantxx/MFCF/blob/main/MFCF%20images/MFCF.png)
 
 From the piper: Fine-grained Fusulinid Fossil Recognition by Combining Textual Information and Local Discriminative Visual 
 
@@ -44,6 +44,10 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
 5) Deploy the environment in IDE or terminal. Click test.py, set the weights file and the path to the multimodal dataset (already set). Click run to output the class predicted by the model.
 
 6) Output file. In the ./runs/weights folder, output an acc.txt file with the categories of the model's predicted samples and the accuracy. The result images of the predicted samples will all be saved in the /runs/weights folder as well.
+
+7) About OFM dataset: The OFM folder holds the multimodal dataset txt files in the format class|image|text. where, due to the large size of the image files, if you need to download them, please click the link https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The dataset is divided into 45 classes and the number of samples in each class is shown below. There are 9 classes with less than 2 samples, which cannot be classified for training, validation and test sets, so these 9 classes are removed for the experimental study. In subsequent studies will look for as many ways as possible to continue to collect the dataset in order to build a more robust model.
+
+![Uploading MFCF.png…](https://github.com/xiaoyantxx/MFCF/blob/main/MFCF%20images/Sample_Count.png)
 
 ### Who do I talk to?
 
