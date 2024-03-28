@@ -19,17 +19,8 @@ mul_model.eval()
 with open('class_name.yaml', 'r') as file:
     class_dict = yaml.load(file, Loader=yaml.FullLoader)['ofg_classes']
 
-train_muldata_path = './data/mul_datasets/mul_train.txt'
+mul_datasets = './data/mul_datasets'
 test_muldata_path = './data/mul_datasets/mul_test.txt'
-
-train_images = []
-train_texts = []
-with open(train_muldata_path) as tr:
-    for line in tr.readlines():
-        line = line.replace('\n', '')
-        line = line.split('|')
-        train_images.append(line[1])
-        train_texts.append(line[2])
 
 test_images = []
 test_texts = []
@@ -40,8 +31,13 @@ with open(test_muldata_path) as tr:
         test_images.append(line[1])
         test_texts.append(line[2])
 
-data_helper = DatasetHelper(100)
-train_t, test_t = data_helper.preprocess_texts(train_texts, test_texts, 100)
+# data_helper = DatasetHelper(100)
+# train_t, test_t = data_helper.preprocess_texts(train_texts, test_texts, 100)
+# torch.save(train_t, os.path.join(mul_datasets, 'train_tensor.pt'))
+# torch.save(test_t, os.path.join(mul_datasets, 'test_tensor.pt'))
+train_t = torch.load(os.path.join(mul_datasets, 'train_tensor.pt'))
+test_t = torch.load(os.path.join(mul_datasets, 'test_tensor.pt'))
+
 acc = 0
 total = len(test_images)
 with open(os.path.join(base_dir, 'acc.txt'), 'w') as output:
