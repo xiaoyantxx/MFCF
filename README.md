@@ -39,7 +39,7 @@ Install python 3.8 in the anaconda virtual environment on the Ubuntu operating s
 
    requirements.txt: includes a number of dependent packages.
 
-3) Download the optimal training model trained by the authors. Click on the link: https://pan.baidu.com/s/1d-BLys-RbS4wxqzh72yy9A?pwd=srbi. The extraction code is srbi. Download the model and place it in the ./runs/weights folder.
+3) Download the optimal training model trained by the authors. Click on the link:  [weight](https://github.com/xiaoyantxx/MFCF/blob/master/031.ckpt)). The extraction code is srbi. Download the model and place it in the ./runs/weights folder.
 
 5) Deploy the environment in IDE or terminal. Click test.py, set the weights file and the path to the multimodal dataset (already set). Click run to output the class predicted by the model.
 
