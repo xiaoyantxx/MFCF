@@ -1,1 +1,1 @@
-The OFM folder holds the multimodal dataset txt files in the format class|image|text, where all the image files are in the master branch([OFM_images](https://github.com/xiaoyantxx/MFCF/tree/master/OFM)).
+The OFM folder holds the multimodal dataset txt files in the format class|image|text, where all the image files are in the master branch(https://github.com/xiaoyantxx/MFCF/tree/master/OFM).
