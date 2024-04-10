@@ -1,1 +1,1 @@
-This folder holds the OFM dataset, where sample images are available for download. Click on the link: https://pan.baidu.com/s/1EMPjzdiQ7dR3me38DS9FPA?pwd=odci. The extraction code is odci.
+The OFM folder holds the multimodal dataset txt files in the format class|image|text, where all the image files are in the master branch([OFM_images](https://github.com/xiaoyantxx/MFCF/tree/master/OFM)).
